@@ -21,7 +21,6 @@ It uses ERCOT 15-minute prices and Hashrate Index hashprice to decide when to mi
    - `ercot_price` (e.g., `"lmp_with_adders"`)  
    - `use_fixed_PPA` and `PPA_price_MWh` if using a PPA  
    - `API_KEY` for Hashrate Index  
-3. Upload your ERCOT CSVs to `/content/ercot_csv` in Colab.  
 4. Go to **Runtime > Run all** to execute the full workflow.  
 
 ---
