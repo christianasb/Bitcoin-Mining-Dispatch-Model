@@ -5,13 +5,13 @@ It uses ERCOT 15-minute prices and Hashrate Index hashprice to decide when to mi
 
 ---
 
-## 📂 Files
+## Files
 - **bitcoin_mining_dispatch.ipynb** — main notebook with steps, code, prints, and charts.  
 - **README.md** — this guide.  
 
 ---
 
-## ⚙️ How to Run (Google Colab)
+## How to Run (Google Colab)
 1. Open the notebook in **Google Colab**.  
 2. In **Section 1: User Inputs**, set:
    - `facility_size` (MW)  
@@ -26,7 +26,7 @@ It uses ERCOT 15-minute prices and Hashrate Index hashprice to decide when to mi
 
 ---
 
-## 📊 What It Prints
+## What It Prints
 - **Profitability assessment**  
   Average revenue, cost, and margin per MWh (from miner efficiency + hashprice).  
 - **Dispatch logic**  
@@ -44,7 +44,7 @@ It uses ERCOT 15-minute prices and Hashrate Index hashprice to decide when to mi
 
 ---
 
-## 📝 Notes
+## Notes
 - **Hashprice** is network-wide and identical across all zones at a given time.  
 - **Electricity price** (spot or PPA) drives the cost per MWh and determines dispatch.  
 - If your ERCOT column names differ, the notebook automatically tries to resolve them.  
